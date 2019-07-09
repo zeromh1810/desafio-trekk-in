@@ -1,0 +1,54 @@
+.card-wrapper {
+    column-gap: 0;
+}
+
+
+.card {
+    @include flex-column-center;
+    border: 1px solid $gray;
+    transition: .2s ease-in-out;
+    padding: 0 1rem 1.5rem;
+    background-color: $white;
+    margin: 0 0 3rem 0;
+    // max-width: 350px;
+    // width: 100%;
+    box-sizing: border-box;
+
+    &__title {
+        font-size: $x-large;
+        font-family: $raleway;
+        font-weight: $regular;
+        margin: 1rem;
+    }
+
+    &__price {
+        @extend .card__title;
+        font-size: $xxx-large;
+        font-weight: $bold;
+    }
+
+    &__list {
+        min-height: 11rem;
+
+        &__item {
+            font-family: $raleway;
+            font-size: $medium;
+
+            &:before {
+                width: 1rem;
+            }
+        }
+    }
+
+    &:hover {
+        -webkit-box-shadow: -4px 0px 20px 9px rgba(158, 158, 158, 1);
+        -moz-box-shadow: -4px 0px 20px 9px rgba(158, 158, 158, 1);
+        box-shadow: -4px 0px 20px 9px rgba(158, 158, 158, 1);
+    }
+}
+
+.separador {
+    width: 80%;
+    height: 1px;
+    background-color: $gray;
+}

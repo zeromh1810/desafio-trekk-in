@@ -1,0 +1,17 @@
+.features {
+    align-items: center;
+
+    &__content {}
+}
+
+.graphic {
+    @include flex-row-center;
+}
+
+
+.bar-graph {
+
+    &__a {
+        animation: appear 0.5s ease-in-out 0s both;
+    }
+}

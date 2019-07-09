@@ -1,0 +1,10 @@
+.plans {
+    width:100%;
+    background-image: url("../img/bg-price.svg");
+    background-size: cover;
+    background-position: left center;
+    min-height: 800px;
+    @include flex-column-center;
+    padding-top: 7rem;
+
+}

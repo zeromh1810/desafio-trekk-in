@@ -1,0 +1,25 @@
+.footer {
+    padding:3rem 0;
+    background-color: $raising-black;
+}
+
+
+.footer-menu {
+
+    &__list {
+        @include flex-row-around;
+        padding: 0;
+
+        &__item {
+            color:$platinum;
+            list-style: none;
+            font-family: $raleway;
+        }
+    }
+
+
+}
+
+.footer-rights {
+    @include flex-row-center;
+}

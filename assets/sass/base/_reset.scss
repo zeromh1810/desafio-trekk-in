@@ -1,0 +1,100 @@
+body {
+    margin:0;
+    padding:0;
+}
+
+img {
+    max-width: 100%;
+    width: 100%;
+}
+
+
+
+@media all and (min-width: 768px) {
+
+    .navbar {
+        padding: 2rem 0;
+        max-width: 90vw;
+        margin:0 auto;
+        @include flex-row-between;
+
+        &__logo {
+            padding:0;
+        }
+
+        &__list {
+            vertical-align: top;
+            display: inline-block;
+            position: absolute;
+            left:5%;
+            margin-left:1rem;
+        }
+
+        &__icon {
+            display: none;
+        }
+
+        &__item {
+            display: inline-block;
+            padding: .2em 1em;
+            border-bottom: none;
+        }
+
+    }
+    .user-menu {
+        display: inline-block;
+    }
+
+    .hero {
+    
+        &__img {
+        }
+    
+        &__content {
+            position: absolute;
+            top: 5%;
+            left: 5%;
+            width: 35%;
+            padding: 0;
+        }
+    }
+
+    .open {
+        display:none;
+    }
+
+    .card {
+
+    }
+
+    .card-wrapper {
+        // @include flex-row-around;
+        column-gap: 11%;
+    }
+
+    .plans {
+        background-position:center center;
+    }
+
+    .footer-menu {
+
+        &__list {
+            @include flex-row-start;
+    
+            &__item {
+                padding-right:1rem;
+            }
+        }
+    
+    
+    }
+    
+    .footer-rights {
+        @include flex-row-end;
+    }
+
+}
+
+
+
+

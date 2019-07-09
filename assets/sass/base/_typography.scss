@@ -1,0 +1,31 @@
+h1 {
+    font-family: $raleway;
+    font-size: $xxx-large;
+}
+
+h3 {
+    font-family: $raleway;
+    font-size: $x-large;
+}
+
+p {
+    font-family: $open-sans;
+    font-size: $medium;
+    line-height: 1.8em;
+}
+
+.section-title {
+    font-family: $raleway;
+    font-size: $xx-large;
+    text-align:center;
+
+    &--white {
+        @extend .section-title;
+        color:$white;
+    }
+}
+
+.white-title {
+    color:$platinum;
+    font-family: $raleway;
+}

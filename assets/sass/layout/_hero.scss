@@ -1,0 +1,14 @@
+.hero {
+    position:relative;
+
+    &__img {
+    }
+
+    &__content {
+        position: relative;
+        top: 0px;
+        left: 0;
+        width: auto;
+        padding: 1rem;
+    }
+}

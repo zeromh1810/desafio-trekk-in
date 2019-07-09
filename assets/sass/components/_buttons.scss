@@ -1,0 +1,37 @@
+.primary-button {
+    font-family: $open-sans;
+    color: $white;
+    padding:0.8rem 2rem;
+    background-color: $ball-blue;
+    transition: .2s ease-in-out;
+    border:none;
+    font-size: $small;
+    cursor: pointer;
+
+    &--large {
+        @extend .primary-button;
+        width:80%;
+        font-size: $large;
+        margin:1rem;
+    }
+
+    &:hover {
+        background-color: $middle-blue;
+    }
+
+    &:focus {
+        background-color: $lavender-gray;
+    }
+
+    &--log-in {
+        @extend .primary-button;
+        background-color: $white;
+        color: $raising-black;
+
+        &:hover {
+            background-color: $dark-salmon;
+            color:$white;
+        }
+
+    }
+}
