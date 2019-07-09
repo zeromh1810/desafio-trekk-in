@@ -1,6 +1,6 @@
-.card-wrapper {
-    column-gap: 0;
-}
+// .card-wrapper {
+//     column-gap: 0;
+// }
 
 
 .card {
@@ -10,8 +10,8 @@
     padding: 0 1rem 1.5rem;
     background-color: $white;
     margin: 0 0 3rem 0;
-    // max-width: 350px;
-    // width: 100%;
+    max-width: 350px;
+    width: 100%;
     box-sizing: border-box;
 
     &__title {

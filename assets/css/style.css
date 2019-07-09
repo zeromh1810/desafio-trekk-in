@@ -386,10 +386,6 @@
   color: #FFF;
 }
 
-.card-wrapper {
-  column-gap: 0;
-}
-
 .card {
   display: flex;
   flex-direction: column;
@@ -400,6 +396,8 @@
   padding: 0 1rem 1.5rem;
   background-color: #FFF;
   margin: 0 0 3rem 0;
+  max-width: 350px;
+  width: 100%;
   box-sizing: border-box;
 }
 .card__title, .card__price {
@@ -541,7 +539,11 @@ img {
   }
 
   .card-wrapper {
-    column-gap: 11%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
   }
 
   .plans {

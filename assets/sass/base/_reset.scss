@@ -68,8 +68,8 @@ img {
     }
 
     .card-wrapper {
-        // @include flex-row-around;
-        column-gap: 11%;
+        @include flex-row-around;
+        // column-gap: 11%;
     }
 
     .plans {
